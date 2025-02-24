@@ -1,4 +1,4 @@
-function comprobarParidad() {
+function comprobar() {
             let num = parseInt(document.getElementById("num").value);
             let resultado = "";
             if (num % 2 === 0) {
