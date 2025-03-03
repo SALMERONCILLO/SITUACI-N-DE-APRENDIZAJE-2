@@ -6,6 +6,10 @@ function calcular() {
     let multiplicacion = a * b;
     let division = a / b;
     let resto = a % b;
-    let resultado = a + "" + b + "" + suma + "" + resta + "" + multiplicacion + "" + division + "" + resto + "" + suma + "" + resta + "" + multiplicacion + "" + division + "" + resto;
+    let resultado ="Suma: " + suma + "\n" +
+                    "Resta: " + resta + "\n" +
+                    "Multiplicación: " + multiplicacion + "\n" +
+                    "División: " + division + "\n" +
+                    "Resto: " + resto;
     document.getElementById("resultado").innerText = resultado;
 }
